@@ -1,0 +1,26 @@
+AllCops:
+  TargetRubyVersion: 2.6.1
+  Exclude:
+    - 'bin/**/*'
+    - 'test/channels/application_cable/connection_test.rb'
+
+Documentation:
+  Enabled: False
+Metrics/LineLength:
+  Max: 140
+Metrics/ClassLength:
+  Max: 150
+  CountComments: false
+Layout/LineLength:
+  Max: 140
+  AllowHeredoc: true
+  AllowURI: true
+  URISchemes:
+    - http
+    - https
+Metrics/MethodLength:
+  Max: 25
+  Exclude:
+    - "**/*_spec.rb"
+Metrics/AbcSize:
+  Max: 25
