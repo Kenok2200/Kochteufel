@@ -3,6 +3,7 @@ AllCops:
   Exclude:
     - 'bin/**/*'
     - 'test/channels/application_cable/connection_test.rb'
+    - 'config/initializers/devise.rb'
 
 Documentation:
   Enabled: False
@@ -24,3 +25,7 @@ Metrics/MethodLength:
     - "**/*_spec.rb"
 Metrics/AbcSize:
   Max: 25
+
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*'

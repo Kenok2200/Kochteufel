@@ -22,3 +22,7 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+## Infos fürs Team
+
+* Jegliche Mails werden in der Konsole angezeigt!
