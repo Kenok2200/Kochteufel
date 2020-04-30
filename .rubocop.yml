@@ -3,11 +3,11 @@ AllCops:
   Exclude:
     - 'bin/**/*'
     - 'test/channels/application_cable/connection_test.rb'
+    - 'config/initializers/devise.rb'
+    - 'db/**/*'
 
 Documentation:
   Enabled: False
-Metrics/LineLength:
-  Max: 140
 Metrics/ClassLength:
   Max: 150
   CountComments: false
@@ -24,3 +24,7 @@ Metrics/MethodLength:
     - "**/*_spec.rb"
 Metrics/AbcSize:
   Max: 25
+
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*'
